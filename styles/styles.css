@@ -1,0 +1,23 @@
+body {
+  background-color: azure;
+}
+
+.login {
+  background-color: darkgrey;
+  max-width: 40%;
+  height: 300px;
+  align-items: center;
+  border: 2px black;
+  border-radius: 25px;
+}
+
+.login--container {
+  align-content: center;
+  margin-left: 25px;
+}
+
+.login--container--buttons {
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 25px;
+}

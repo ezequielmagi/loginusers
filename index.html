@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Login v2</title>
+  </head>
+  <body>
+    <section class="login">
+      <h1>Ingrese los datos a continuacion:</h1>
+      <div class="login--container">
+        <label for="nombre">Nombre de usuario</label><br />
+        <input type="text" id="nombre" placeholder="Nombre" /><br />
+        <label for="apellido">Apellido de usuario</label><br />
+        <input type="text" id="apellido" placeholder="Apellido" /><br />
+        <label for="fechanac">Fecha de Nacimiento</label><br />
+        <input type="date" id="fechanac" /><br />
+      </div>
+      <div class="login--container--buttons">
+        <button class="button" id="enviar">Enviar</button>
+        <button class="button" id="largoNombre">Largo del Nombre</button>
+      </div>
+    </section>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

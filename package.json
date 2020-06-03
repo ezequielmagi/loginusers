@@ -1,0 +1,16 @@
+{
+  "name": "login",
+  "version": "1.0.1",
+  "description": "mejorando el login de users",
+  "main": "./src/login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "login",
+    "users",
+    "renovado"
+  ],
+  "author": "imagic",
+  "license": "MIT"
+}
